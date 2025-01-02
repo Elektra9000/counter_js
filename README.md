@@ -12,4 +12,5 @@ An example of a counter created with JavaScript, HTML, and CSS:
 ![image](https://github.com/user-attachments/assets/237ffc04-0258-45ff-a7c5-8dc80134cef4)
 
 Link GitHub: https://elektra9000.github.io/counter_js/
+
 Link Netlify: https://basic-counter-js-s2i.netlify.app
