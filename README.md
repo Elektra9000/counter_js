@@ -8,3 +8,6 @@ An example of a counter created with JavaScript, HTML, and CSS:
 - One button increases the result, and one button decreases it.
 - A reset button sets the result back to zero 
 - It has a simple design with soft and uniform colors
+
+![image](https://github.com/user-attachments/assets/237ffc04-0258-45ff-a7c5-8dc80134cef4)
+
