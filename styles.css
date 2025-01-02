@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+  font-size: 80px;
+  font-family: "Doto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings:
+    "ROND" 0;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to left, #2f5fce, #93d94d);
+  background-size: contain;
+}
+
+.container {
+  width: 500px;
+  height: 400px;
+  margin: 200px auto;
+
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.glass {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.box {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+}
+
+.reset {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#incrementButton {
+  background-color: rgba(47, 95, 208, 50%);
+  border: none;
+  width: 90%;
+  cursor: pointer;
+}
+
+#decrementButton {
+  background-color: rgb(147, 217, 77, 50%);
+  border: none;
+  width: 90%;
+  cursor: pointer;
+}
+
+.counter {
+  text-align: center;
+}
+
+.button-reset {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
